@@ -1,0 +1,21 @@
+{
+  "name": "@kinformation/coincheck",
+  "version": "0.1.0",
+  "description": "CoinCheck API for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kazuya Kanatani",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2"
+  }
+}
